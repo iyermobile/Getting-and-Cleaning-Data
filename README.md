@@ -34,7 +34,7 @@ The output tidy data set file “tidy_data_set.txt” is created in the working dire
 
 ## R-Script Code Flow:
 * Step 1:
-	* Read each of the test and training files: y\_test.txt, subject\_test.txt and X_test.txt.
+	* Read each of the test and training files.
 	* Combine the files into a data frame in the form of subjects, labels, and the remaining data.
 * Step 2:
 	* Read the features part from features.txt and filter it to only trim the features that are either means ("mean()") or standard deviations ("std()"). The reason for trimming out meanFreq() is that the goal for this step is to only include means and standard deviations of measurements,. Hence meanFreq() can be ignored.
